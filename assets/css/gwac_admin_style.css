@@ -1,0 +1,229 @@
+.gwc.panel {
+    background: #fff;
+    display: inline-flex;
+    width: 98%;
+    display:;
+    position: relative;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.wrapper {
+    float: left;
+    width: 100%;
+    position: relative;
+    min-height: 450px;
+    background: rgba(255, 255, 255, 0.9803921568627451);
+}
+
+.panel .wrapper .sidebar {
+    float: left;
+    width: 100%;
+    background: #ffffff;
+    max-width: 420px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 41px -22px;
+    margin:30px;
+    border: 1px solid#dedede;
+}
+
+.panel .wrapper .sidebar ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.panel .wrapper .sidebar ul li a {
+    padding: 10px 0px;
+    margin: 0px;
+    border-bottom: 3px solid #c5cdd4;
+    color: #2b2b2b;
+    font-size: 16px;
+    display: block;
+    border-left: none;
+    cursor: pointer;
+    background: #f1f1f1;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.panel .wrapper .sidebar ul li {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 33.33%;
+}
+
+.panel .wrapper .sidebar ul li:last-child a {
+    /* border-right: 5px solid #f1f1f1; */
+}
+
+.panel .wrapper .sidebar ul li.plug a {
+    font-size: 20px;
+    color: #4CAF50;
+    font-weight: bold;
+    /* margin: 0px; */
+}
+
+.panel .wrapper .sidebar ul li.plug {
+    background: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+
+.panel .wrapper .sidebar ul li:not(.plug):hover a, .panel .wrapper .sidebar ul li.active a {
+    color: #4CAF50;
+    background: #ffffff;
+    border-bottom: 3px solid #4CAF50;
+}
+
+
+
+.tab-contents >div.active {
+    display: block;
+    padding: 20px;
+}
+
+.tab-contents {
+    float: left;
+    width: 100%;
+}
+.form-control {}
+
+.gwc.panel .form-control label {
+    min-width: 160px;
+    display: inline-block;
+}
+.left .gwc-wrap .gwc-dialog {
+    right: auto;
+}
+.wrapper form > h1 {
+    padding: 30px 30px 0px;
+    color: #5fce5d;
+}
+.inline .gwc-wrap .gwc-dialog {
+    right: auto;
+    position:inherit;
+}
+
+.gwc.panel .form-control .control {
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.gwc.panel .form-control .control textarea,.gwc.panel .form-control .control input {
+    width: 100% !important;
+    display: block;
+}
+.wrapper form > h1 >small {
+    font-size: 10px;
+    position: relative;
+    top: -3px;
+}
+
+.gwc.panel .tab-contents>span {
+    font-size: 15px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.gwc.panel .tab-contents .group {
+    background: #f5f6f7;
+    padding: 9px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+#wpfooter{
+    position:relative;
+}
+.gwc.panel .preview {
+    float: right;
+    width: 60%;
+    display: block;
+    position: relative;
+    min-height: 650px;
+}
+.gwc.panel .tab-contents 
+ button.btn.btn-primary {
+    border: 0px;
+    margin-right: 0px;
+    background: #4CAF50;
+    padding: 7px 16px;
+    border-radius: 5px;
+    color: #fff;
+}
+.gwc.panel .form-control.radio {
+    padding: 7px 10px;
+}
+.gwc.panel .form-control .control  input[type='radio']{
+    width:auto !important;
+}
+.gwc.panel .preview > h2 {
+    font-size: 42px;
+    color: #757d84;
+}
